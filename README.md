@@ -87,3 +87,8 @@ Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informa
 Auteur
 Créé avec ❤️ par Lucas.
 Pour toute question ou suggestion, n'hésitez pas à me contacter.
+
+Améliorations futures
+Ajouter la prise en charge de branches multiples.
+Support pour les options supplémentaires (--amend, --no-verify, etc.).
+Gestion des erreurs plus détaillée.
