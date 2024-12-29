@@ -1,16 +1,20 @@
-git-auto
-git-auto est un outil de ligne de commande écrit en Go qui simplifie les interactions avec Git. Il permet d'exécuter une série de commandes Git (add, commit, et push) avec un seul appel en passant un message de commit directement en argument.
+# git-auto
 
-Fonctionnalités
-Ajoute tous les fichiers (git add .) au commit.
-Crée un commit signé avec un message personnalisé.
-Pousse automatiquement les modifications sur la branche principale (main).
-Installation
-1. Cloner le dépôt
+**git-auto** est un outil de ligne de commande écrit en Go qui simplifie les interactions avec Git. Il permet d'exécuter une série de commandes Git (`add`, `commit`, et `push`) avec un seul appel en passant un message de commit directement en argument.
+
+## Fonctionnalités
+
+- Ajoute tous les fichiers (`git add .`) au commit.
+- Crée un commit signé avec un message personnalisé.
+- Pousse automatiquement les modifications sur la branche principale (`main`).
+
+---
+
+## Installation
+
+### 1. Cloner le dépôt
 Clonez le projet sur votre machine :
-
-bash
-Copier le code
+```bash
 git clone https://github.com/votre-utilisateur/git-auto.git
 cd git-auto
 2. Initialiser le module Go
@@ -83,21 +87,3 @@ Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informa
 Auteur
 Créé avec ❤️ par Lucas.
 Pour toute question ou suggestion, n'hésitez pas à me contacter.
-
-Améliorations futures
-Ajouter la prise en charge de branches multiples.
-Support pour les options supplémentaires (--amend, --no-verify, etc.).
-Gestion des erreurs plus détaillée.
-Ce README fournit toutes les informations nécessaires pour utiliser et contribuer à votre projet. 😊
-
-
-
-
-
-
-Vous avez dit :
-tu peux me donner tout en meme que je puisse le copier coller
-ChatGPT a dit :
-ChatGPT
-Voici le README complet que vous pouvez copier-coller :
-
